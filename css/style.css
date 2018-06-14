@@ -1,0 +1,141 @@
+body{
+    font-family: 'Questrial', sans-serif;
+}
+/*---------------H1 & H2-----------------------*/
+h1, h2{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 200;
+}
+
+h1{
+    font-size: 56px;
+    font-weight: 300;
+}
+
+h2{
+    font-size: 48px;
+    font-weight: 200;
+    text-align: center;
+}
+
+/*-------------------NAV BAR------------------------*/
+nav{
+    background-color: #343a40;
+    color: white;
+    height: 56px;
+}
+
+.trademark{
+    float: left;
+    font-weight: bolder;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+/*--------------------HEADER------------------------*/
+
+header{
+    background-image: url("../assets/images/ringsHeader.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.opaque{
+    background-color: rgba(0,0,0,0.2);
+    padding: 5em;
+}
+
+/*-------------------BUTTONS---------------------------*/
+
+.btn {
+    background: rgb(73, 29, 62);
+    border: 1px solid rgb(73, 29, 62);
+    color: #fff;
+    margin: 0.5em 0;
+    padding: 1em 2em;
+    position: relative;
+    text-decoration: none;
+
+}
+
+.btn:hover{
+    background: rgb(242, 147, 58);
+    border:none;
+    color:rgb(255, 255, 255); 
+}
+
+/*--------------MENUS FOR DESKTOP AND MOBILE--------------*/
+.burger {
+    float: right;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.menu {
+    float: right;
+    text-align: right;
+    /* margin-top: -25px; */
+    
+}
+
+.menu li {
+    display: inline-block;
+    height: 56px;
+    padding: 20px 10px;
+}
+
+.menu a {
+    color: #ccc;
+    text-decoration: none;
+}
+.menu a:hover{
+    color: #ffffff;
+}
+
+/*-----------------------PARAGRAPH-----------------*/
+
+.col-6 p{
+    text-align: justify;
+}
+
+p.address{
+    text-align: center;
+}
+
+p{
+    border: #343a40 solid 1px;
+    padding: 10px;
+    text-align: justify;
+}
+
+/*---------------------FOOTER-----------------------*/
+
+footer{ 
+    background-color: #343a40;
+    color:white;
+    height: 56px;
+    padding: 2em;
+    text-align: center;
+}
+
+/*--------------------IMAGES---------------------------*/
+section img{
+    max-width:100%;
+}
+
+.col-3 img{
+    border-radius: 50%;
+    cursor: pointer;
+    max-width: 100%;
+}
+
+.col-3 img:hover{
+    background-color: white;
+    opacity: 0.5; 
+}
+
+/*COLUMNS PROPORTION*/
+div.col-4{
+    height:565px;
+}
